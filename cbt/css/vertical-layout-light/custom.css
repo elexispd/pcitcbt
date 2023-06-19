@@ -1,0 +1,112 @@
+.navbar .navbar-brand-wrapper {
+	background: green;
+}
+.navbar-breadcrumb {
+	background: green;
+}
+.navbar {
+	border-bottom: 4px solid rgb(20,20,160);
+}
+.navbar-breadcrumb .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .input-group-prepend {
+	background: rgb(20,20,160);
+}
+
+.sidebar {
+	background: green;
+	color: #fff;
+}
+.sidebar .nav .nav-item .nav-link, .sidebar .nav .nav-item .nav-link i.menu-icon, .sidebar .nav .nav-item .nav-link i.menu-arrow, .sidebar .nav.sub-menu .nav-item .nav-link {
+	color: #fff;
+}
+.sidebar .nav.sub-menu .nav-item::before {
+	background: #fff;
+}
+.sidebar .nav .nav-item.active > .nav-link i, .sidebar .nav .nav-item.active > .nav-link .menu-title, .sidebar .nav .nav-item.active > .nav-link .menu-arrow {
+	color: green;
+}
+.sidebar .nav:not(.sub-menu) > .nav-item:hover > .nav-link{
+	color: green;
+	background: #fff;
+}
+.sidebar .nav:not(.sub-menu) > .nav-item:hover >  .nav-link i.menu-icon, .sidebar .nav:not(.sub-menu) > .nav-item:hover > .nav-link i.menu-arrow {
+	color: green;
+}
+.typcn.text-secondary, h1 {
+	color: rgb(20,20,160) !important;
+}
+.btn-info {
+	background: rgb(20,20,160) !important;
+}
+.btn-success, .btn-primary {
+	background: green !important;
+}
+#set_question_form input{
+	border-color: rgba(0, 0, 0, .3);
+}
+.input-group-text {
+	background: rgb(20,20,160) !important;
+	color: #fff;
+}
+
+/*student profile*/
+
+img.profile-img {
+	height: auto;
+	width: 500px;
+	object-fit: cover;
+	border-radius: 10px;
+}
+.is_active {
+	display: block;
+}
+
+.not_active {
+	display: none;
+}
+.success {
+	background: green !important;
+	color: #fff;
+}
+
+.counter {
+	position: absolute;
+	right: 3em;
+	top: 20px;
+}
+
+.counter .clock-wrapper span {
+	font-size: 2em;
+}
+.text-primary,  .counter .clock-wrapper span{
+	color: rgb(20,20,160) !important;
+}
+.counter .clock-wrapper span.red {
+	color: red !important;
+}
+.btn#submit {
+	padding: 12px !important;
+}
+
+@media (max-width: 767px) {
+  .w-50 {width: 100% !important}
+  .content-wrapper { padding: 0 !important; }
+  .counter {
+	right: 0.3em;
+	}
+  .counter .clock-wrapper span {
+  	font-size: 18px !important;
+  }
+  .d-lg-flex img{
+  	margin-left: 2em;
+  }
+  #flex {
+  	margin-top: 15px;
+  }
+  .card .card-body {
+  	padding: 15px;
+  }
+  .footer { 
+  	padding-left: 13px;
+  	padding-right: 13px;
+  }
+}
